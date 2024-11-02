@@ -50,5 +50,5 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-            -Dsonar.python.coverage.reportPath=coverage-reports/coverage.xml  # Make sure this matches your report path
+            -Dsonar.python.coverage.reportPath=coverage-reports/coverage.xml
             -Dsonar.host.url=https://sonarcloud.io
